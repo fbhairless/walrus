@@ -6,3 +6,33 @@
 #walrus-showing2 {
   display: none;
 }
+
+.clickable1 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable1:hover {
+  text-decoration: underline;
+}
+.clickable2 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable2:hover {
+  text-decoration: underline;
+}
+
+#show-about {
+  display: none;
+}
+
+.about-click {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.about-click:hover {
+  text-decoration: underline;
+}
