@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  $(".fade-header").hide().fadeIn(1000);
+
   $(".clickable1").click(function() {
     $("#walrus-showing").fadeToggle();
     $("#walrus-hidden").fadeToggle();
@@ -13,4 +15,7 @@ $(document).ready(function() {
     $("#show-about").slideToggle();
     $("#hide-about").slideToggle();
   });
+
+
+
 });
